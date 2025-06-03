@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>torumana NEW Album "Summoner's"</title>
+    <style>
+        /* 基本的なデザイン */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .music-item {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .music-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        /* 再生ボタンのスタイル (最新版に統一) */
+        #playAllButton {
+            background-color: #007bff; /* デフォルト（再生前） */
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 25px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transition: background-color 0.3s ease; /* スムーズな色変化 */
+        }
+        #playAllButton:hover {
+            opacity: 0.8;
+        }
+        #playAllButton.playing { /* 再生中（一時停止ボタンとして機能） */
+            background-color: #28a745; /* 緑色系 */
+        }
+        #playAllButton.paused { /* 一時停止中（再生再開ボタンとして機能） */
+            background-color: #ffc107; /* 黄色系 */
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>torumana NEW Album "Summoner's"</h1>
+    </header>
+
+    <div class="container">
+        <section id="oshirase">
+            <h2>曲</h2>
+            <p>＿＿＿</p>
+            
+            <button id="playAllButton">アルバムを連続再生</button>
+            
+            <div class="music-item">
+                <p><strong>サモリフの夜明け：</strong> (一曲目)</p>
+                <audio class="track" controls src="サモリフの夜明け.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="サモリフの夜明け.mp3">こちらから音楽ファイル1をダウンロード</a> してください。
+                </audio>
+            </div>
+
+            <div class="music-item">
+                <p><strong>サモリフで蘇る：</strong> (二曲目)</p>
+                <audio class="track" controls src="サモリフで蘇る.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="サモリフで蘇る.mp3">こちらから音楽ファイル2をダウンロード</a> してください。
+                </audio>
+            </div>
+
+            <div class="music-item">
+                <p><strong>サモリフの夜明け-Cover 1-：</strong> (三曲目)</p>
+                <audio class="track" controls src="サモリフの夜明け-Cover 1-.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="サモリフの夜明け-Cover 1-.mp3">こちらから音楽ファイル3をダウンロード</a> してください。
+                </audio>
+            </div>
+            
+            <div class="music-item">
+                <p><strong>サモリフで蘇る-Arrange 1-：</strong> (四曲目)</p>
+                <audio class="track" controls src="サモリフで蘇る-Arrange 1-.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="サモリフで蘇る-Arrange 1-.mp3">こちらから音楽ファイル1をダウンロード</a> してください。
+                </audio>
+            </div>
+
+            <div class="music-item">
+                <p><strong>ブリンクで逃げんな！：</strong> (五曲目)</p>
+                <audio class="track" controls src="ブリンクで逃げんな！.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="ブリンクで逃げんな！.mp3">こちらから音楽ファイル1をダウンロード</a> してください。
+                </audio>
+            </div>
+
+            <div class="music-item">
+                <p><strong>サモリフで蘇る-Cover 1-：</strong> (六曲目)</p>
+                <audio class="track" controls src="サモリフで蘇る-Cover 1-.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="サモリフで蘇る-Cover 1-.mp3">こちらから音楽ファイル1をダウンロード</a> してください。
+                </audio>
+            </div>
+
+            <div class="music-item">
+                <p><strong>孤独のサモリフ：</strong> (七曲目)</p>
+                <audio class="track" controls src="孤独のサモリフ.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="孤独のサモリフ.mp3">こちらから音楽ファイル1をダウンロード</a> してください。
+                </audio>
+            </div>
+
+            <div class="music-item">
+                <p><strong>サモリフで蘇る-Arrange 2-：</strong> (八曲目)</p>
+                <audio class="track" controls src="サモリフで蘇る-Arrange 2-.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="サモリフで蘇る-Arrange 2-.mp3">こちらから音楽ファイル1をダウンロード</a> してください。
+                </audio>
+            </div>
+
+            <div class="music-item">
+                <p><strong>サモリフで蘇る-Remix-：</strong> (九曲目)</p>
+                <audio class="track" controls src="サモリフで蘇る-Remix-.mp3">
+                    お使いのブラウザは音声の再生に対応していません。
+                    <a href="サモリフで蘇る-Remix-.mp3">こちらから音楽ファイル1をダウンロード</a> してください。
+                </audio>
+            </div>
+
+            <p>
+                <strong>注意：</strong>
+                謹んで御案内申し上げます。
+                当ホームページにおける一切の掲載内容、並びに当該コンテンツ群は、すべからく本サーバーの主宰たる者の厳粛なる監督と統制のもと、誠実かつ厳格に管理・運営されております。その内容に関しましては、一片たりとも軽率なる手入れや加筆修正を許さず、常に高潔なる理念と秩序の下、深慮のうえ整備されているものでございます。よって、閲覧者各位におかれましては、当該記述の一字一句を軽んずることなく、真摯なる姿勢にて接して賜りますよう、伏してお願い申し上げる次第にございます。
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p style="text-align: center; margin-top: 30px; color: #777;">
+            &copy; 2025 トルマナティのサーバー
+        </p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const playAllButton = document.getElementById('playAllButton');
+            const tracks = document.querySelectorAll('.track');
+            let currentTrackIndex = 0;
+            let playerState = 'stopped'; // 'stopped', 'playing', 'paused'
+
+            if (tracks.length === 0) {
+                playAllButton.textContent = '再生できる曲がありません';
+                playAllButton.disabled = true;
+                return;
+            }
+
+            updateButtonDisplay(); // ボタンの初期表示を更新
+
+            playAllButton.addEventListener('click', function() {
+                if (playerState === 'stopped') {
+                    // アルバム再生開始
+                    currentTrackIndex = 0;
+                    // 全ての曲をリセット（他の曲が個別に再生されていた場合も考慮）
+                    tracks.forEach((track, index) => {
+                        if (index !== currentTrackIndex) {
+                            track.pause();
+                            track.currentTime = 0;
+                        }
+                    });
+                    playCurrentTrack(true); // trueは最初から再生を意味する
+                } else if (playerState === 'playing') {
+                    // 再生中なので一時停止する
+                    tracks[currentTrackIndex].pause();
+                    playerState = 'paused';
+                    updateButtonDisplay();
+                } else if (playerState === 'paused') {
+                    // 一時停止中なので再生再開する
+                    tracks[currentTrackIndex].play();
+                    // playイベントでplayerStateが'playing'に更新されるので、ここでは直接変更しない
+                }
+            });
+
+            function playCurrentTrack(playFromStart = false) {
+                if (currentTrackIndex < tracks.length) {
+                    const trackToPlay = tracks[currentTrackIndex];
+                    if (playFromStart) {
+                        trackToPlay.currentTime = 0;
+                    }
+                    trackToPlay.play()
+                        .then(() => {
+                            playerState = 'playing'; // playイベントより先に状態を確定
+                            updateButtonDisplay();
+                        })
+                        .catch(error => {
+                            console.error("再生エラー:", trackToPlay.src, error);
+                            // エラー発生時は次の曲へ（または停止）
+                            handlePlaybackError();
+                        });
+                } else {
+                    // 全曲再生終了
+                    playerState = 'stopped';
+                    currentTrackIndex = 0; // 次の再生のためにリセット
+                    updateButtonDisplay();
+                }
+            }
+
+            function playNextTrack() {
+                currentTrackIndex++;
+                playCurrentTrack(true); // 次の曲は必ず最初から
+            }
+
+            function handlePlaybackError() {
+                // エラーが起きた曲をスキップして次の曲へ、または再生を停止
+                if (tracks[currentTrackIndex]) { 
+                    alert(`曲の再生中にエラーが発生しました: ${tracks[currentTrackIndex].src}\n次の曲へ進みます。`);
+                } else {
+                    alert(`曲の再生中にエラーが発生しました。\n次の曲へ進みます。`);
+                }
+                playNextTrack();
+            }
+            
+            function updateButtonDisplay() {
+                switch (playerState) {
+                    case 'stopped':
+                        playAllButton.textContent = 'アルバムを連続再生';
+                        playAllButton.classList.remove('playing', 'paused');
+                        break;
+                    case 'playing':
+                        playAllButton.textContent = '一時停止';
+                        playAllButton.classList.add('playing');
+                        playAllButton.classList.remove('paused');
+                        break;
+                    case 'paused':
+                        playAllButton.textContent = '再生再開';
+                        playAllButton.classList.add('paused');
+                        playAllButton.classList.remove('playing');
+                        break;
+                }
+            }
+
+            tracks.forEach((track, index) => {
+                track.addEventListener('ended', function() {
+                    // この曲が現在再生対象で、かつ playerState が 'playing' または 'paused' (自動で次へ進むべき場合)
+                    if (index === currentTrackIndex && (playerState === 'playing' || playerState === 'paused')) {
+                        playNextTrack();
+                    }
+                });
+
+                track.addEventListener('play', function() {
+                    // この再生が連続再生の現在のトラックによるものか確認
+                    if (index === currentTrackIndex) {
+                        playerState = 'playing';
+                        updateButtonDisplay();
+
+                        // 他のトラックがもし再生されていたら停止する（ほぼ発生しないはずだが念のため）
+                        tracks.forEach((otherTrack, otherIndex) => {
+                            if (otherIndex !== index && !otherTrack.paused) {
+                                otherTrack.pause();
+                            }
+                        });
+                    }
+                });
+
+                track.addEventListener('pause', function() {
+                    // この一時停止が連続再生の現在のトラックによるもので、かつ曲が終了していない場合
+                    // かつ、playerStateが 'playing' (つまり、連続再生ボタンからの指示ではなく、個別コントロールでpauseされたなど)
+                    if (index === currentTrackIndex && !track.ended && playerState === 'playing') {
+                         // ユーザーが個別のコントロールで一時停止した場合、全体のボタンも「再生再開」に追従させる
+                        playerState = 'paused';
+                        updateButtonDisplay();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
